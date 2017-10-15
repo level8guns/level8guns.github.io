@@ -1,0 +1,31 @@
+@charset "urf-8";
+
+* {
+	margin:0px;
+	padding:0px;
+	border:0px;
+}
+
+body {
+	font-family:"Lucida Console", Monaco, monospace;
+	/*font-size:14px;*/
+	
+	background-image:url('snow_wallpaper.gif');
+	background-repeat:repeat;
+}
+
+p,h1,h2,h3,h4,h5,h6 {	
+	text-decoration:none;
+	color:grey;
+}
+
+a {
+	border-bottom:2px solid orange;
+	text-decoration:none;
+	color:white;
+}
+
+a:hover {
+	border-bottom:2px solid red;
+	color:red;
+}
