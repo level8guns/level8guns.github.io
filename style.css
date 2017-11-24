@@ -8,46 +8,4 @@
 
 body {
 	font-family:"Lucida Console", Monaco, monospace;
-	/*font-size:14px;*/
-	
-	background-image:url('petals_wallpaper.gif');
-	background-repeat:repeat;
-}
-
-p,h1,h2,h3,h4,h5,h6 {	
-	text-decoration:none;
-	color:grey;
-}
-
-a {
-	border-bottom:2px solid orange;
-	text-decoration:none;
-	color:white;
-}
-
-a:hover {
-	border-bottom:2px solid red;
-	color:red;
-}
-
-.header {
-	margin:0px;
-	height:300px;
-	width:100%;
-	background-image:url('mario_banner.gif');
-	background-repeat:no-repeat;
-}
-
-.title {
-	margin:10px auto;
-	width:960px;
-	height:32px;
-	text-align:center;
-}
-
-.footer {
-	margin:10px auto;
-	width:960px;
-	height:16px;
-	text-align:center;
 }
