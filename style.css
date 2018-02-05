@@ -8,6 +8,8 @@
 
 body {
 	font-family:"Lucida Console", Monaco, monospace;
+	
+	background-color:rgb(101, 104, 243);
 }
 
 .navi {
@@ -48,4 +50,37 @@ body {
 
 .navi ul li a:hover {
 	color:orange;
+}
+
+.container {
+	margin:70px auto 0px auto;
+	
+	width:960px;
+	height:auto;
+}
+
+.tile {
+	padding-left:8px;
+	border:1px solid rgb(255, 255, 255);
+	
+	width:988px;
+	height:50px;
+	
+	background-color:rgb(183, 216, 254);
+}
+
+.tile h2 {
+	line-height:50px;
+}
+
+.tile div {
+	margin:auto;
+	padding:6px;
+	border:1px solid rgb(255, 255, 255);
+	
+	width:900px;
+	
+	background-color:rgb(183, 216, 254);
+	
+	display:none;
 }

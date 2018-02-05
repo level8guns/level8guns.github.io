@@ -2,6 +2,19 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css" />
+		
+		<script>
+			function display(e) {
+				//e.getElementsByTagName('div')[0].style.display = "block";
+				//e.getElementsByTagName('div').style.display = "none";
+				
+				if (e.getElementsByTagName('div')[0].style.display == "block") {
+					e.getElementsByTagName('div')[0].style.display = "none";
+				} else {
+					e.getElementsByTagName('div')[0].style.display = "block";
+				}
+			}
+		</script>
 	</head>
 	
 	<body>
@@ -13,6 +26,14 @@
 				<li><a href="http://twitch.tv/level8guns">TWITCH</a></li>
 				<li><a href="http://twitter.com/level8guns">TWITTER</a></li>
 			</ul>
+		</div>
+		
+		<div class="container">
+			<div onclick="display(this);" class="tile"><h2>Show info</h2>
+				<div>
+					<p>Test</p>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
