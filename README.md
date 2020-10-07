@@ -1,3 +1,3 @@
 # http://level8guns.github.io
 
-THis is a bad website i made
+Moved my default website to this because github has https
