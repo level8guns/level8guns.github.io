@@ -1,40 +1,85 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css" />
+		<meta name="description" content="Weeb dev" />
+		<meta name="author" content="Jayza" />
 		
-		<script>
-			function display(e) {
-				//e.getElementsByTagName('div')[0].style.display = "block";
-				//e.getElementsByTagName('div').style.display = "none";
-				
-				if (e.getElementsByTagName('div')[0].style.display == "block") {
-					e.getElementsByTagName('div')[0].style.display = "none";
-				} else {
-					e.getElementsByTagName('div')[0].style.display = "block";
-				}
-			}
-		</script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Jayza</title>
 	</head>
 	
 	<body>
-		<div class="navi">
-			<ul>
-				<li><a href="#">HOME</a></li>
-				<li><a href="http://jsapphire.tk">JSAPPHIRE</a></li>
-				<li><a href="http://github.com/level8guns">GITHUB</a></li>
-				<li><a href="http://twitch.tv/level8guns">TWITCH</a></li>
-				<li><a href="http://twitter.com/level8guns">TWITTER</a></li>
-				<li><a href="/test">TEST</a></li>
-			</ul>
+		<div id="header">
+			<div id="twitch">
+				<iframe src="https://player.twitch.tv/?channel=jayza&parent=jsapphire.tk&parent=zetheron.elementfx.com" 
+				height="340px" 
+				width="604px" 
+				frameborder="0" 
+				scrolling="no" 
+				allowfullscreen="true" 
+				autoplay="true" 
+				muted="true">
+				</iframe>
+				
+				<iframe src="https://www.twitch.tv/embed/jayza/chat?darkpopout&parent=jsapphire.tk&parent=zetheron.elementfx.com"
+				height="340px"
+				width="287px">
+				</iframe>
+			</div>
 		</div>
 		
-		<div class="container">
-			<div onclick="display(this);" class="tile"><h2>Show info</h2>
-				<div>
-					<p>Test</p>
-				</div>
+		<div id="social">
+			<a href="https://twitch.tv/jayza" target="_blank"><img src="img/twitch.png" /></a>
+			<a href="https://github.com/level8guns" target="_blank"><img src="img/github.png" /></a>
+			<a href="https://steamcommunity.com/id/fabelle/" target="_blank"><img src="img/steam.png" /></a>
+			<a href="https://twitter.com/level8guns" target="_blank"><img src="img/twitter.png" /></a>
+			<a href="https://youtube.com/zynthos1000" target="_blank"><img src="img/youtube.png" /></a>
+			<a href="https://level8guns.tumblr.com" target="_blank"><img src="img/tumblr.png" /></a>
+		</div>
+		
+		<div id="tiles">
+			<div class='tile'>
+				<a href='https://youtube.com/watch?v=XGcu-UmeUBo' target='_blank'>
+					<img src='https://img.youtube.com/vi/XGcu-UmeUBo/maxresdefault.jpg' />
+				</a>
 			</div>
+			<div class='tile'>
+				<a href='https://youtube.com/watch?v=_odfqeNXNtk' target='_blank'>
+					<img src='https://img.youtube.com/vi/_odfqeNXNtk/maxresdefault.jpg' />
+				</a>
+			</div>
+			<div class='tile'>
+				<a href='https://youtube.com/watch?v=IRtC1K3dgpI' target='_blank'>
+					<img src='https://img.youtube.com/vi/IRtC1K3dgpI/maxresdefault.jpg' />
+				</a>
+			</div>
+			<div class='tile'>
+				<a href='https://youtube.com/watch?v=8Yyz2MZ5y60' target='_blank'>
+					<img src='https://img.youtube.com/vi/8Yyz2MZ5y60/maxresdefault.jpg' />
+				</a>
+			</div>
+			<div class='tile'>
+				<a href='https://youtube.com/watch?v=D1kcK5Z4IQo' target='_blank'>
+					<img src='https://img.youtube.com/vi/D1kcK5Z4IQo/maxresdefault.jpg' />
+				</a>
+			</div>
+			<div class='tile'>
+				<a href='https://youtube.com/watch?v=fYDM8VYwVMk' target='_blank'>
+					<img src='https://img.youtube.com/vi/fYDM8VYwVMk/maxresdefault.jpg' />
+				</a>
+			</div>
+			<div class='tile'>
+				<a href='https://youtube.com/watch?v=4gARdbHp6Kc' target='_blank'>
+					<img src='https://img.youtube.com/vi/4gARdbHp6Kc/maxresdefault.jpg' />
+				</a>
+			</div>
+			<div class='tile'>
+				<a href='https://youtube.com/watch?v=EUiVRk6_vFc' target='_blank'>
+					<img src='https://img.youtube.com/vi/EUiVRk6_vFc/maxresdefault.jpg' />
+				</a>
+			</div>
+				
 		</div>
 	</body>
 </html>
