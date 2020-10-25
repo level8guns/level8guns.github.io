@@ -28,6 +28,7 @@ body {
 	height:400px;
 	
 	overflow:auto;
+	display:inline-block;
 }
 
 #twitch {
